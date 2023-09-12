@@ -9,5 +9,6 @@ func main() {
 	for index, arg := range os.Args[1:] {
 		fmt.Println(index)
 		fmt.Println(arg)
+
 	}
 }
